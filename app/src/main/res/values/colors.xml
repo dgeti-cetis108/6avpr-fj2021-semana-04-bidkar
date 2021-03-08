@@ -7,4 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!--Mis Colores-->
+    <color name="amarillo">#ffff00</color>
+    <color name="naranja">#ff9933</color>
+    <color name="verde">#009933</color>
+    <color name="azul">#66ccff</color>
+    <color name="gris">#e6e6e6</color>
+    <color name="marino">#0033cc</color>
 </resources>
