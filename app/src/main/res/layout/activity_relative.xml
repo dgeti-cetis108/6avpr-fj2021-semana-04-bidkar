@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeActivity">
+
+    <TextView
+        android:id="@+id/uno"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="@color/naranja"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/dos"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/uno"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/amarillo"
+        android:gravity="center"
+        android:text="2"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/cuatro"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/uno"
+        android:layout_alignEnd="@+id/uno"
+        android:layout_alignRight="@+id/uno"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/azul"
+        android:gravity="center"
+        android:text="4"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/cuatro"
+        android:background="@color/gris"
+        android:gravity="center"
+        android:text="3"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@id/dos"
+        android:layout_toRightOf="@id/dos"
+        android:background="@color/marino"
+        android:gravity="center"
+        android:text="5"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_toEndOf="@id/dos"
+        android:layout_alignTop="@id/dos"
+        android:background="@color/verde"
+        android:text="6"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@id/dos" />
+
+</RelativeLayout>
